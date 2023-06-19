@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
 /**
  * main - prints the last digit of the number stored in the variable n
  *
@@ -15,7 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	lastdigit = n % 10;
 
 		if (lastdigit > 5)
